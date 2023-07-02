@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(233, 242, 255);
+}
+
 .headerContainer {
     display: flex;
     flex-direction: column;
@@ -20,8 +24,7 @@
     align-items: center;
     width: 100vw;
     height: 5vh;
-    border: 3px solid green;
-    background-color: #1f2937;
+    background-color: #1a222e;
 }
 
 .navBar p {
@@ -48,7 +51,6 @@
 
 .headerContent {
     display: flex;
-    border: 3px solid red;
     width: 60vw;
     height: 30vh;
     align-items: center;
@@ -59,13 +61,29 @@
 .headerTextContainer {
     display: flex;
     flex-direction: column;
-    border: 3px solid pink;
     width: 30vw;
     height: 20vh;
     align-items: center;
     justify-content: center;
 }
 
+.headerTextContainer h2 {
+    color: white;
+    font-family: 'Robot', sans-serif;
+    font-size: 30px;
+}
+
+.headerTextContainer p {
+    margin-top: 5px;
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Robot', sans-serif;
+    font-size: 15px;
+}
+
+/*!"BUTTON"*/
 .headerTextContainer a{
     text-decoration: none;
     margin-top: 40px;
@@ -79,11 +97,25 @@
     border-radius: 10px;
 }
 
+.headerTextContainer a:hover{
+    background-color: #316ecf;
+}
+
 .headerImage {
     display: flex;
     width: 15vw;
     height: 20vh;
-    border: 3px solid blue;
+    background-color: rgb(255, 255, 255);
     margin-left: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerImage p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+
 }
 
