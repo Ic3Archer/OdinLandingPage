@@ -1,3 +1,5 @@
+/*BREAK AT 1206*/
+
 * {
     margin: 0;
     padding: 0;
@@ -229,7 +231,7 @@ body {
     width: 100vw;
     height: 40vh;
     margin-top: 50px;
-    border: 2px solid red;
+   /* border: 2px solid red; */
 }
 
 .preFooterContent {
@@ -242,20 +244,79 @@ body {
     background-color: #316ecf;
     justify-content: center;
     align-items: left;
-    border: 2px solid red;
+   /* border: 2px solid red; */
 }
 
 .preFooterTextLeft {
     display: flex;
     flex-direction: column;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 20vw;
 }
 
 .preFooterBttnRight {
     display: flex;
-    flex-direction: column;
-    border: 2px solid green;
-    width: 20vw;
-    height: 10vh;
+    margin-left: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+.preFooterBttnRight:hover {
+    background-color: #e4e4e4;
+}
+
+.preFooterBttnRight a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.preFooterTextLeft h3 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px
+}
+
+.preFooterTextLeft p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 15px;
+}
+
+.footerContainer {
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerText {
+    /* border: 2px solid red; */
+    text-align: center;
+    
+}
+
+.footerText p, a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+.footerText a {
+    color: #cc9837;
+    text-decoration: none;
+}
+
+.footerText a:hover {
+    color: #685229;
 }
