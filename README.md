@@ -1,0 +1,1 @@
+My take on the landing page design from the odin project. focus was on HTML, CSS and Flexbox. 
