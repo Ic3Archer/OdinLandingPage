@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -38,6 +38,7 @@ body {
 .navBar p {
     color: white;
     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     font-size: 24px;
 }
 
@@ -120,7 +121,7 @@ body {
     display: flex;
     width: 15vw;
     height: 20vh;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     margin-left: 20px;
     border-radius: 10px;
     align-items: center;
@@ -147,8 +148,12 @@ body {
 }
 
 .infoContainer h3 {
-   font-family: 'Roboto';
+   color: rgb(36, 36, 36);
+   font-family: 'Roboto', sans-serif;
    margin-bottom: 20px;
+   font-size: 30px;
+   border-bottom: 3px solid black;
+   border-color: #849dc5;
 }
 
 
@@ -169,19 +174,50 @@ body {
     justify-content: center;
     width: 100vw;
     height: 40vh;
-    background-color: #bad0f3;
-    border: 3px solid #a9bcdb; 
+    background-color: #2020208f;
     border-radius: 30px;
 
-}
-
-.img:hover {
-    transform: scale(1.1);
-    transition: 400ms ease;
 }
 
 .img p {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    color: white;
+}
+
+.subImageText {
+    width: 100vw;
+    height: 5vh;
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subImageText p {
+    margin-top: -50px;
+    font-family: 'Roboto';
+    color: #202020;
+    border: 3px solid #202020;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.quoteContainer {
+    display: flex;
+    width: 100vw;
+    height: 30vh;
+    background-color: rgb(219, 219, 219);
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
