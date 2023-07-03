@@ -100,7 +100,7 @@ body {
 }
 
 /*!"BUTTON"*/
-.headerTextContainer a{
+.headerTextContainer a {
     text-decoration: none;
     margin-top: 40px;
     color: white;
@@ -220,4 +220,42 @@ body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+}
+
+.preFooterContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 40vh;
+    margin-top: 50px;
+    border: 2px solid red;
+}
+
+.preFooterContent {
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 15vh;
+    border-radius: 15px;
+    background-color: #316ecf;
+    justify-content: center;
+    align-items: left;
+    border: 2px solid red;
+}
+
+.preFooterTextLeft {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+    width: 20vw;
+}
+
+.preFooterBttnRight {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+    width: 20vw;
+    height: 10vh;
 }
