@@ -139,75 +139,46 @@ body {
 
 /*INFO*/
 
-.infoContainer {
-    flex-direction: column;
-    /* border: 3px solid red; */
-    display: flex;
-    width: 100vw;
-    height: 70vh;
-    align-items: center;
-    justify-content: center;
-}
-
-.infoContainer h3 {
-   color: rgb(36, 36, 36);
-   font-family: 'Roboto', sans-serif;
-   margin-bottom: 20px;
-   font-size: 30px;
-   border-bottom: 3px solid black;
-   border-color: #849dc5;
-}
-
-
-.infoBox {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
+.cardContainer {
+  /*  border: 5px solid rgb(18, 243, 130); */
     height: 50vh;
-   /* border: 2px solid pink; */
-}
-
-.img {
-    margin-top: 50px;
-    margin-right: 30px;
-    margin-left: 30px;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
-    width: 100vw;
-    height: 40vh;
-    background-color: #2020208f;
-    border-radius: 30px;
-
-}
-
-.img p {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    color: white;
-}
-
-.subImageText {
-    width: 100vw;
-    height: 5vh;
-    /*border: 2px solid red;*/
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     align-items: center;
 }
 
-.subImageText p {
-    margin-top: -50px;
-    font-family: 'Roboto';
-    color: #202020;
-    border: 2px solid #202020;
-    padding: 5px;
-    border-radius: 10px;
+.cardHeadline {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
+    margin-top: 30px;
 }
 
+.card { /*img containe*/
+    display: flex;
+    /* border: 2px solid pink; */
+    max-width: 300px;
+    height: 300px;
+    max-height: 400px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.img {  /*imgage placeholder*/
+    border: 3px solid #316ecf;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.card p {
+    display: block;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
 .quoteContainer {
     display: flex;
     width: 100vw;
